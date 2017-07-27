@@ -15,14 +15,14 @@ function contains(query, otherArray) {
     return false;
 }
 
-for (var n = 0; n < 30; n ++) {
+for (var n = 0; n < 25; n ++) {
 
     var selected_joke = all_jokes[Math.floor(Math.random() * all_jokes.length)];
     while (contains(selected_joke, selected_jokes)) {
         var selected_joke = all_jokes[Math.floor(Math.random() * all_jokes.length)];
     }
 
-    if (n % 6 == 0 && n != 0 && n != 30) {
+    if (n % 5 == 0 && n != 0 && n != 25) {
         selected_jokes.push("</p><p>");
     }
 
