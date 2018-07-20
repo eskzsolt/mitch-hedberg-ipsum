@@ -1,3 +1,3 @@
-# mitch-hedberg-ipsum
+# Mitch Hedberg Ipsum
 
-Mitch Hedberg themed Lorem ipsum generator
+### [visit](https://eskzsolt.github.io/mitch-hedberg-ipsum)
