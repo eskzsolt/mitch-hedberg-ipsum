@@ -1,16 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Viga:400);
-@import url(https://fonts.googleapis.com/css?family=Glegoo:400);
+
+@import url(https://fonts.googleapis.com/css?family=Gaegu:400|Permanent+Marker:400);
 
 body {
     color: #fff;
-    background: #38b588;
-    font-size:calc(0.8rem + 0.2vw);
+    background: #00001b /*#1d1d1d*/ /*#38b588*/;
+    font-size:calc(1rem + 0.2vw);
     padding:auto;
     margin: auto;
 }
 
 .outer {
-    display: table; 
+    display: table;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -18,18 +19,18 @@ body {
 
 .inner {
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     width: 80vw;
 }
 
 
 #joke-wrapper {
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    /*background-color: #fff;*/
     display: inline-block;
     padding: 0.2rem calc(0.4rem + 0.6vw) 0.2rem calc(0.4rem + 0.6vw);
-    font-family: 'Glegoo', serif;
-    border-radius: 5px;
+    font-family: 'Gaegu', cursive;
+    //border-radius: 5px;
 }
 
 p {
@@ -43,6 +44,6 @@ h1 {
     margin: 0;
     font-weight:normal;
     text-align: center;
-    font-family: 'Viga', sans-serif;
+    font-family: 'Permanent Marker', /*'Viga',*/ sans-serif;
     font-size:calc(1rem + 2.5vw);
 }
