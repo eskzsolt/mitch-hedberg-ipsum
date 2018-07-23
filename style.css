@@ -29,6 +29,7 @@ body {
     display: inline-block;
     padding: 0.2rem calc(0.4rem + 0.6vw) 0.2rem calc(0.4rem + 0.6vw);
     font-family: 'Glegoo', serif;
+    border-radius: 5px;
 }
 
 p {
