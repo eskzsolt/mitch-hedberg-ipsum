@@ -1,3 +1,3 @@
 # Mitch Hedberg Ipsum
 
-### [visit](https://eskzsolt.github.io/mitch-hedberg-ipsum)
+### [visit site](https://eskzsolt.github.io/mitch-hedberg-ipsum)
