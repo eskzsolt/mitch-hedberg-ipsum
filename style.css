@@ -23,7 +23,7 @@ body {
 
 
 #joke-wrapper {
-    color: #2d4262;
+    color: #1d1d1d;
     background-color: #fff;
     display: inline-block;
     padding: 0.2rem calc(0.4rem + 0.6vw) 0.2rem calc(0.4rem + 0.6vw);
@@ -44,4 +44,12 @@ h1 {
     text-align: center;
     font-family: 'Permanent Marker', /*'Viga',*/ sans-serif;
     font-size:calc(1rem + 2.5vw);
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    cursor: default;
 }
