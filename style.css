@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Gaegu:400|Viga:400|Permanent+Marker:400);
+@import url(https://fonts.googleapis.com/css?family=Gaegu:400|Viga:400|Permanent+Marker:400|Patrick+Hand:400);
 
 body {
     color: #fff;
@@ -27,7 +27,7 @@ body {
     background-color: #fff;
     display: inline-block;
     padding: 0.2rem calc(0.4rem + 0.6vw) 0.2rem calc(0.4rem + 0.6vw);
-    font-family: 'Gaegu', cursive;
+    font-family: 'Patrick Hand', cursive;
     //border-radius: 5px;
 }
 
