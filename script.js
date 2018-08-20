@@ -17,9 +17,9 @@ function contains(query, otherArray) {
 
 for (var n = 0; n < 25; n ++) {
 
-    var selected_joke = all_jokes[Math.floor(Math.random() * all_jokes.length)];
+    var selected_joke = all_jokes[~~(Math.random() * all_jokes.length)];
     while (contains(selected_joke, selected_jokes)) {
-        var selected_joke = all_jokes[Math.floor(Math.random() * all_jokes.length)];
+        var selected_joke = all_jokes[~~(Math.random() * all_jokes.length)];
     }
 
     if (n % 5 == 0 && n != 0 && n != 25) {
