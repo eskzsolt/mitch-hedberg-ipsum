@@ -2,7 +2,7 @@
 
 body {
     color: #fff;
-    background: #607d8b /*#1d1d1d*/ /*#38b588*/;
+    background: #607d8b /*#1d1d1d #38b588*/;
     font-size:calc(1rem + 0.2vw);
     padding:auto;
     margin: auto;
@@ -27,7 +27,7 @@ body {
     display: inline-block;
     padding: 0.2rem calc(0.4rem + 0.6vw) 0.2rem calc(0.4rem + 0.6vw);
     font-family: 'Patrick Hand', cursive;
-    //border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 p {
